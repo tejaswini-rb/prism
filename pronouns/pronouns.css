@@ -47,3 +47,7 @@ button:hover {
   margin:5px;
 
 }
+
+#reset-btn {
+    display:none;
+}

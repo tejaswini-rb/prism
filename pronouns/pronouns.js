@@ -101,7 +101,7 @@ function generateText() {
     console.log(elems);
     
     // specify a random index
-    var index = Math.floor(Math.random() * (0 - elems.length + 1)) + elems.length;
+    var index = Math.floor(Math.random() * elems.length);
     console.log(index);
     textNum = index; 
 
@@ -110,7 +110,6 @@ function generateText() {
     var randomElement = elems[index];
     console.log(randomElement);
 
-    // do whatever
     randomElement.style.display = 'block';
     document.getElementById("check-btn").style.display = "block";
 
@@ -173,6 +172,8 @@ function checkText() {
     }
 
     document.getElementById("check-btn").style.display = "none";
+    document.getElementById("reset-btn").style.display = "block";
+
   
   }
 
@@ -228,7 +229,7 @@ for (let button of buttons) {
 
 function correctBlanks() {
   if (textNum == 0) {
-    $('#apple1').val(possAdj);
+    $('#apple1').val(subject);
     $("#apple2").val(possAdj);
     $("#apple3").val(subject);
     $("#apple4").val(possAdj);
@@ -272,3 +273,25 @@ function correctBlanks() {
     $("#artifact6").val(possAdj);
   }
 }
+
+function reset() {
+  //remove
+  document.getElementById("para1").style.display = "none";
+  document.getElementById("para2").style.display = "none";
+  document.getElementById("para3").style.display = "none";
+  document.getElementById("para4").style.display = "none";
+  document.getElementById("result-correct").style.display = "none";
+  document.getElementById("result-incorrect").style.display = "none";
+  document.getElementById("reset-btn").style.display = "none";
+  document.getElementById("pronoun-form").reset();
+
+  //add
+
+  document.getElementById("select").style.display = "block";
+  document.getElementById("go-btn").style.display = "block";
+
+  //reset values
+    pronounNum = -1;
+    textNum = -1;
+}
+
