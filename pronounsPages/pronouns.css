@@ -73,7 +73,7 @@ button {
     background: #ECD3FF;
     border: none;
     color: black;
-    border-radius: 5.5px;
+    border-radius: 20px;
     border: 2.5px solid rgba(0, 0, 0, 0.5);
     border-style: solid;
     font-size: 1em;
@@ -135,8 +135,8 @@ headerstuff*/
   width: 192px;
   height: 63px;
   position: absolute;
-  background-color: #ffffff;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  background-color: #D8A7FF;
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .dashboard-text15 {
@@ -173,7 +173,7 @@ headerstuff*/
   height: 63px;
   position: absolute;
   background-color: #ffffff;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .dashboard-text17 {
@@ -209,7 +209,7 @@ headerstuff*/
   height: 63px;
   position: absolute;
   background-color: #ffffff;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .dashboard-text19 {
@@ -261,7 +261,7 @@ headerstuff*/
   height: 63px;
   position: absolute;
   background-color: #ffffff;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .dashboard-text23 {
@@ -297,7 +297,7 @@ headerstuff*/
   height: 63px;
   position: absolute;
   background-color: #ffffff;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .dashboard-text25 {
@@ -342,7 +342,7 @@ headerstuff*/
   height: 78px;
   position: absolute;
   background-color: #D8A7FF;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 4.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .dashboard-icon {
