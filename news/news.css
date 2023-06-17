@@ -1,6 +1,9 @@
 /* CSS code */
 body {
     background-color: #ACEBFF;
+    font-family: "Darker Grotesque";
+    font-size: 30px;
+    font-weight: 600; /* Semi-bold */
   }
   .center-content {
     display: flex;
@@ -11,13 +14,18 @@ body {
   #navbar {
     background-color: #FFF5DA;
 }
+h3 {
+    font-family: "Darker Grotesque";
+    font-weight: 600;
+    font-size: 30px;;
+}
   .center-content {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     height: 80vh;
   }
-  
+
   .twitter-column {
     width: 30%; /* Added a new class for the Twitter column with width set to 30% */
     
@@ -39,6 +47,7 @@ body {
   }
   .news-article-title {
     margin-top: 0; /* Remove the top margin from the news article title */
+    font-family: "Darker Grotesque";
   }
   @media (max-width: 1000px) {
     .center-content {
@@ -63,6 +72,7 @@ body {
     padding-right: 15px; 
     text-align: center;
     padding-bottom: 20px;
+    font-family: "Darker Grotesque";
     
 }
 .col-sm-7 {
@@ -74,5 +84,7 @@ body {
     padding-top: 10px;
     padding-bottom: 20px;
     margin-left: -80px;
+    margin-right: 80px;
+    font-family: "Darker Grotesque";
 
 }
