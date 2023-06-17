@@ -87,9 +87,13 @@ function generateText() {
 const buttons = document.getElementsByTagName("button");
 const result = document.getElementById("result");
 
+let activeButton = null;
+
 const buttonPressed = e => { 
-    //button.style.background = "#32bacf";
-  //result.innerHTML = `ID of <em>${e.target.innerHTML}</em> is <strong>${e.target.id}</strong>`;
+  if (activeButton != null) {
+    activeButton.style.background = "#32bacf"; // Replace with the original color of the button
+  }
+  
   e.target.style.background = "#ffa000"; 
   if(e.target.id == "he") {
     pronounNum = 0;
@@ -119,6 +123,7 @@ const buttonPressed = e => {
     pronounNum = 8;
   }
   console.log(pronounNum);
+  activeButton = e.target;
 }
 
 for (let button of buttons) {
