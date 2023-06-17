@@ -6,6 +6,12 @@ var object;
 var possPro; 
 var possAdj;
 var reflexive; 
+
+var blanks; 
+var checks; 
+var answers; 
+
+var isCorrect = true;
 /*
 Pronoun key:
 0 - subject
@@ -24,31 +30,69 @@ function generateText() {
         if (pronounNum == 0) {
             subject = "he";
             object = "him";
-            //etc someone pls do this :(
+            possPro = "his";
+            possAdj = "his";
+            reflexive = "himself";
         } else if (pronounNum == 1) {
             //she
+            subject = "she";
+            object = "her";
+            possPro = "hers";
+            possAdj = "her";
+            reflexive = "herself";
             
             
         } else if (pronounNum == 2) {
-            //they
+          subject = "they";
+          object = "them";
+          possPro = "theirs";
+          possAdj = "their";
+          reflexive = "themselves";
             
         } else if (pronounNum == 3) {
-            //it
+          subject = "it";
+          object = "it";
+          possPro = "its";
+          possAdj = "its";
+          reflexive = "itself";
             
         } else if (pronounNum == 4) {
-            //ze
+          subject = "xe";
+          object = "xem";
+          possPro = "xyr";
+          possAdj = "xyr";
+          reflexive = "xemself";
             
         } else if (pronounNum == 5) {
-            //ze
+            
+            subject = "ze";
+          object = "zir";
+          possPro = "zirs";
+          possAdj = "zir";
+          reflexive = "zelf";
             
         } else if (pronounNum == 6) {
             //fae
-            
+            subject = "fae";
+          object = "faer";
+          possPro = "faer";
+          possAdj = "faer";
+          reflexive = "faeself";
         } else if (pronounNum == 7) {
             //per
+            subject = "per";
+          object = "per";
+          possPro = "pers";
+          possAdj = "per";
+          reflexive = "perself";
             
         } else {
             //ey
+            subject = "ey";
+          object = "em";
+          possPro = "eirs";
+          possAdj = "eir";
+          reflexive = "eirself";
             
         }
     }
@@ -73,13 +117,60 @@ function generateText() {
     document.getElementById("go-btn").style.display = "none";
   }
 
-  function checkText() {
+function checkText() {
     if (textNum == 0) {
-        var apples = document.getElementsByClassName("apple");
-        var appleCheck = []
-        console.log(apples);
-    }
+        isCorrect = (document.getElementById("apple1").value == subject
+        && document.getElementById("apple1").value == possAdj
+        && document.getElementById("apple1").value == subject
+        && document.getElementById("apple1").value == possAdj
+        && document.getElementById("apple1").value == possAdj
+        && document.getElementById("apple1").value == possAdj
+        && document.getElementById("apple1").value == subject
+        && document.getElementById("apple1").value == object
+        && document.getElementById("apple1").value == object
+        );
+    } else if (textNum == 1) {
+        isCorrect = (document.getElementById("quill1").value == subject
+        && document.getElementById("quill2").value == reflexive
+        && document.getElementById("quill3").value == possAdj
+        && document.getElementById("quill4").value == subject
+        && document.getElementById("quill5").value == subject
+        && document.getElementById("quill6").value == subject
+        && document.getElementById("quill7").value == subject
+        && document.getElementById("quill8").value == subject
+        && document.getElementById("quill9").value == possAdj
+        && document.getElementById("quill10").value == subject
+        && document.getElementById("quill11").value == object
+        );
+    } else if (textNum == 2) {
+        isCorrect = (document.getElementById("mishap1").value == reflexive
+        && document.getElementById("mishap2").value == subject
+        && document.getElementById("mishap3").value == subject
+        && document.getElementById("mishap4").value == subject
+        && document.getElementById("mishap5").value == possAdj
+        && document.getElementById("mishap6").value == possAdj
+        && document.getElementById("mishap7").value == subject
+        && document.getElementById("mishap8").value == subject
+        && document.getElementById("mishap9").value == subject
+        && document.getElementById("mishap10").value == possAdj
+        );
+    } else {
+        isCorrect = (document.getElementById("artifact1").value == subject
+        && document.getElementById("artifact2").value == possAdj
+        && document.getElementById("artifact3").value == subject
+        && document.getElementById("artifact4").value == subject
+        && document.getElementById("artifact5").value == possAdj
+        && document.getElementById("artifact6").value == possAdj
+        );
 
+    }
+    console.log(isCorrect + " correct?");
+    if (isCorrect) {
+      document.getElementById("result-correct").style.display = "inline";
+    } else {
+      document.getElementById("result-incorrect").style.display = "inline";
+    }
+  
   }
 
 

@@ -1,9 +1,25 @@
+body {
+    background-color: #ACEBFF;
+}
+
+@media (min-width: 576px) {
+    .jumbotron {
+        padding-bottom: 0;
+    }
+}
+#navbar {
+    background-color: #FFF5DA;
+}
+
 .pronoun-paragraph {
     display: none;
 }
 
 #check-btn {
     display: none;
+}
+#go-btn {
+    margin-left: 95px;
 }
 
 
@@ -25,9 +41,9 @@ button:hover {
     cursor: pointer;
 }
 
-#result {
+.result {
   border:1px solid; 
-  display:inline-block;
+  display:none;
   margin:5px;
-/*   padding:5px; */
+
 }
