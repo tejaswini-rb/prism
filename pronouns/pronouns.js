@@ -169,7 +169,10 @@ function checkText() {
       document.getElementById("result-correct").style.display = "inline";
     } else {
       document.getElementById("result-incorrect").style.display = "inline";
+      correctBlanks();
     }
+
+    document.getElementById("check-btn").style.display = "none";
   
   }
 
@@ -222,3 +225,50 @@ for (let button of buttons) {
   
 }
 
+
+function correctBlanks() {
+  if (textNum == 0) {
+    $('#apple1').val(possAdj);
+    $("#apple2").val(possAdj);
+    $("#apple3").val(subject);
+    $("#apple4").val(possAdj);
+    $("#apple5").val(possAdj);
+    $("#apple6").val(possAdj);
+    $("#apple7").val(subject);
+    $("#apple8").val(object);
+    $("#apple9").val(object);
+  }
+  if (textNum == 1) {
+    $('#quill1').val(reflexive);
+    $('#quill2').val(reflexive);
+    $("#quill3").val(possAdj);
+    $("#quill4").val(subject);
+    $("#quill5").val(subject);
+    $("#quill6").val(subject);
+    $("#quill7").val(subject);
+    $("#quill8").val(subject);
+    $("#quill9").val(possAdj);
+    $("#quill10").val(subject);
+    $("#quill11").val(object);
+  }
+  if (textNum == 2) {
+    $('#mishap1').val(subject);
+    $("#mishap2").val(subject);
+    $("#mishap3").val(subject);
+    $("#mishap4").val(subject);
+    $("#mishap5").val(possAdj);
+    $("#mishap6").val(possAdj);
+    $("#mishap7").val(subject);
+    $("#mishap8").val(subject);
+    $("#mishap9").val(subject);
+    $("#mishap10").val(possAdj);
+  }
+  if (textNum == 3) {
+    $('#artifact1').val(possAdj);
+    $("#artifact2").val(possAdj);
+    $("#artifact3").val(subject);
+    $("#artifact4").val(subject);
+    $("#artifact5").val(possAdj);
+    $("#artifact6").val(possAdj);
+  }
+}
