@@ -25,6 +25,7 @@ Pronoun key:
 function generateText() {
     if (pronounNum < 0) {
         alert("Please select a pronoun to use!");
+        document.getElementById("go-btn").style.backgroundColor = "#FFF5DA";
         return; 
     } else {
         if (pronounNum == 0) {
@@ -187,6 +188,7 @@ let activeButton = null;
 const buttonPressed = e => { 
   if (activeButton != null) {
     activeButton.style.background = "#ECD3FF"; // Replace with the original color of the button
+    document.getElementById("go-btn").style.backgroundColor = "#FFF5DA";
   }
   
   e.target.style.background = "#FFF5DA"; 

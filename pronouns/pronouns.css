@@ -13,11 +13,20 @@ body {
 
 .pronoun-paragraph {
     display: none;
+    background-color: #D8A7FF;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: Darker Grotesque;
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-#check-btn {
-    display: none;
-}
+
 #go-btn {
     width: 240px;
     font-family: Darker Grotesque;
@@ -26,6 +35,26 @@ body {
     background-color: #FFF5DA;
 
     
+}
+#check-btn {
+    display: none;
+    width: 240px;
+    font-family: Darker Grotesque;
+    font-size: 35px;
+    border-radius: 30px;
+    background-color: #FFF5DA;
+    margin-left: 50px;
+
+}
+#reset-btn {
+    display: none;
+    width: 240px;
+    font-family: Darker Grotesque;
+    font-size: 35px;
+    border-radius: 30px;
+    background-color: #FFF5DA;
+    margin-left: 50px;
+
 }
 
 #go-area {
@@ -77,4 +106,10 @@ button:hover {
     font-family: Darker Grotesque;
     font-size: 35px;
     padding-bottom: 15px;
+}
+
+.form-object {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
