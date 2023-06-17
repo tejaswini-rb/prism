@@ -19,7 +19,18 @@ body {
     display: none;
 }
 #go-btn {
-    margin-left: 95px;
+    width: 240px;
+    font-family: Darker Grotesque;
+    font-size: 35px;
+    border-radius: 30px;
+    background-color: #FFF5DA;
+
+    
+}
+
+#go-area {
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -28,17 +39,20 @@ button {
     margin: 5px;
     padding: 5px 8px;
     outline: none;
-    background: #32bacf;
+    background: #ECD3FF;
     border: none;
-    color: white;
+    color: black;
     border-radius: 5px;
+    border-color: black;
+    border-style: solid;
     font-size: 1em;
     width: 75px;
 }
 
 button:hover {
-    background-color: #ffa000;
+    background-color: #FFF5DA;
     cursor: pointer;
+    
 }
 
 .result {
@@ -50,4 +64,17 @@ button:hover {
 
 #reset-btn {
     display:none;
+}
+
+.select-pronouns {
+    background-color: #D8A7FF;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: black;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    font-family: Darker Grotesque;
+    font-size: 35px;
+    padding-bottom: 15px;
 }

@@ -186,10 +186,10 @@ let activeButton = null;
 
 const buttonPressed = e => { 
   if (activeButton != null) {
-    activeButton.style.background = "#32bacf"; // Replace with the original color of the button
+    activeButton.style.background = "#ECD3FF"; // Replace with the original color of the button
   }
   
-  e.target.style.background = "#ffa000"; 
+  e.target.style.background = "#FFF5DA"; 
   if(e.target.id == "he") {
     pronounNum = 0;
   }
@@ -290,6 +290,8 @@ function reset() {
   document.getElementById("select").style.display = "block";
   document.getElementById("go-btn").style.display = "block";
 
+  document.getElementById("go-btn").style.marginLeft = "60px";
+  document.getElementById("go-btn").style.backgroundColor = "#FFF5DA";
   //reset values
     pronounNum = -1;
     textNum = -1;
