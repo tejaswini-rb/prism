@@ -33,7 +33,7 @@
   height: 180px;
   position: absolute;
   background-color: #D8A7FF;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 50px;
 }
 .pronouns-text {
@@ -85,7 +85,7 @@
   height: 554px;
   position: absolute;
   background-color: #FFF5DA;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 50px;
 }
 .pronouns-text04 {
@@ -153,7 +153,7 @@
   height: 104px;
   position: absolute;
   background-color: #D8A7FF;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .pronouns-text09 {
@@ -189,7 +189,7 @@
   height: 554px;
   position: absolute;
   background-color: #D8A7FF;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 50px;
 }
 .pronouns-pronoun-chart-full1 {
@@ -221,7 +221,8 @@
 
 
 
-
+/*
+headerstuff*/
 .dashboard-pronouns-header {
   top: 36.780487060546875px;
   left: 753px;
@@ -238,8 +239,8 @@
   width: 192px;
   height: 63px;
   position: absolute;
-  background-color: #ffffff;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  background-color: #D8A7FF;
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .dashboard-text15 {
@@ -276,7 +277,7 @@
   height: 63px;
   position: absolute;
   background-color: #ffffff;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .dashboard-text17 {
@@ -312,7 +313,7 @@
   height: 63px;
   position: absolute;
   background-color: #ffffff;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .dashboard-text19 {
@@ -364,7 +365,7 @@
   height: 63px;
   position: absolute;
   background-color: #ffffff;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .dashboard-text23 {
@@ -400,7 +401,7 @@
   height: 63px;
   position: absolute;
   background-color: #ffffff;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 3.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .dashboard-text25 {
@@ -445,7 +446,7 @@
   height: 78px;
   position: absolute;
   background-color: #D8A7FF;
-  border: 5.5px solid rgba(0, 0, 0, 0.5);
+  border: 4.5px solid rgba(0, 0, 0, 0.5);
   border-radius: 90px;
 }
 .dashboard-icon {
