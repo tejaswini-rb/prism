@@ -17,6 +17,14 @@ body {
     }
 }
 
+.dashboard-icon {
+  top: 8px;
+  left: 40px; 
+  width: 67px;
+  height: 84px;
+  position: absolute;
+}
+
 
 #navbar {
     background-color: #FFF5DA;

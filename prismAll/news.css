@@ -94,6 +94,14 @@ h3 {
 
 }
 
+.dashboard-icon {
+  top: 8px;
+  left: 40px; 
+  width: 67px;
+  height: 84px;
+  position: absolute;
+}
+
 .home {
   width: 300px; 
   background-color: #D8A7FF;
@@ -107,7 +115,7 @@ h3 {
 
 .home-text {
   margin-left:70px;
-  margin-top: -4px;  
+  color: black;
 }
 
 .navbar-right-btn {
@@ -119,7 +127,8 @@ h3 {
   font-size: 30px;
   font-weight: 600;
   height: 55px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
+  color:rgba(0, 0, 0, 1);
   
 }
 
