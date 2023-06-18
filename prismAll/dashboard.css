@@ -171,6 +171,10 @@
   width: 326px;
   height: 353px;
   position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  
 }
 .dashboard-talk-to-possum {
   top: 808px;
