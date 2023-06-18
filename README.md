@@ -1,5 +1,6 @@
 # PRISM
 A possum-themed web app for learning about LGBTQIA+ identities and practicing pronouns!
+
 <img width="1309" alt="Screen Shot 2023-06-18 at 12 32 04 PM" src="https://github.com/tejaswini-rb/prism/assets/114116509/bef830c9-dfc2-45ed-a817-d986994372f6">
 
 ## What it does
