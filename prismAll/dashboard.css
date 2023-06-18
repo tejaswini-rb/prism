@@ -68,3 +68,103 @@ body {
   border-width: 6px;
   margin-bottom: 30px; 
 }
+
+.green-box {
+  background-color: rgba(179, 255, 83, .4);
+  font-size: 30px;
+  border-radius: 55px;
+  text-align: center;
+  border-color: rgba(0,0,0,.5);
+  border-style: solid;
+  border-width: 6px;
+  padding: 3%;
+}
+
+.possum-box {
+  background-color: white;
+  font-size: 30px;
+  border-radius: 55px;
+  text-align: center;
+  border-color: rgba(0,0,0,.5);
+  border-style: solid;
+  border-width: 6px;
+}
+
+.possum-btn {
+  background-color: #FFBBC7;
+  font-size: 30px;
+  border-radius: 55px;
+  text-align: center;
+  border-color: rgba(0,0,0,.5);
+  border-style: solid;
+  border-width: 6px;
+  width: 100%;
+  margin-top:5%;
+  color: black;
+}
+
+.pronouns-btn {
+  background-color: #FFBCEC;
+  font-size: 25px;
+  border-radius: 55px;
+  text-align: center;
+  border-color: rgba(0,0,0,.5);
+  border-style: solid;
+  border-width: 6px;
+  width: 100%;
+  color: black;
+  padding:3%;
+}
+
+.chart-box {
+  background-color: white;
+  font-size: 25px;
+  border-radius: 55px;
+  text-align: center;
+  border-color: rgba(0,0,0,.5);
+  border-style: solid;
+  border-width: 6px;
+
+}
+
+.identities-btn {
+  background-color: #FFC89F;
+  font-size: 30px;
+  border-radius: 15%;
+  text-align: center;
+  border-color: rgba(0,0,0,.5);
+  border-style: solid;
+  border-width: 6px;
+  width: 100%;
+  color: black;
+  padding:3%;
+}
+
+.identities-box {
+  background-color: white;
+  font-size: 25px;
+  border-radius: 15%;
+  text-align: center;
+  border-color: rgba(0,0,0,.5);
+  border-style: solid;
+  border-width: 6px;
+  padding-bottom: 5px; 
+  padding-left: 5px; 
+  padding-right: 5px; 
+  
+
+}
+
+.news-btn {
+  background-color: rgba(63, 163, 255, .67);
+  font-size: 30px;
+  border-radius: 55px;
+  text-align: center;
+  border-color: rgba(0,0,0,.5);
+  border-style: solid;
+  border-width: 6px;
+  width: 100%;
+  margin-top:5%;
+  color: black;
+
+}
