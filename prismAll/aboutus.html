@@ -37,8 +37,8 @@
         text-align: center;
         padding: 40px;
         margin: 10px;
-        border: 5.5px solid rgba(0, 0, 0, 0.5);
-        border-radius: 10px;
+        border: 4.5px solid rgba(0, 0, 0, 0.5);
+        border-radius: 50px;
         font-family: "Darker Grotesque", sans-serif;
         color: #333;
       }
@@ -57,21 +57,19 @@
         height: 200px; /* Adjust the image size as needed */
         object-fit: cover;
         margin-right: 20px; /* Add spacing between the images */
-        border: 5.5px solid rgba(0, 0, 0, 0.5);
-        border-radius: 5.5px;
+        border: 4.5px solid rgba(0, 0, 0, 0.5);
+        border-radius: 50px;
       }
       .text-box .first-paragraph {
         font-weight: bold;
       }
-      .text-box textarea {
-        width: 100%;
-        height: 100px;
+      .text-box .text-content {
         margin-top: 20px;
-        resize: none;
-        padding: 5px;
-        border-radius: 5px;
-        border: 2px solid rgba(0, 0, 0, 0.5);
         font-family: "Darker Grotesque", sans-serif;
+        font-size: 18px;
+      }
+      .text-box .pronouns {
+        font-style: italic;
       }
     </style>
   </head>
@@ -82,20 +80,22 @@
           <div>
             <img src="https://cdn.picrew.me/shareImg/org/202306/1944831_JnSYbAym.png" alt="Image 1">
             <p class="first-paragraph">Feferi V.</p>
-            <p>They/He</p>
+            <p><span class="pronouns">They/He</span></p>
           </div>
           <div>
             <img src="https://cdn.discordapp.com/attachments/1117839800762912828/1119806718713540678/download20230606215145.png" alt="Image 2">
             <p class="first-paragraph">Leila J.</p>
-            <p>Fae/It</p>
+            <p><span class="pronouns">Fae/It</span></p>
           </div>
           <div>
             <img src="https://cdn.discordapp.com/attachments/1117839800762912828/1119815022802120735/gay.png" alt="Image 3">
             <p class="first-paragraph">Teja R.</p>
-            <p>Any pronouns</p>
+            <p><span class="pronouns">Any pronouns</span></p>
           </div>
         </div>
-        <textarea placeholder="Enter your paragraph here"></textarea>
+        <div class="text-content">
+          This is your paragraph text. You can replace this with your own content, and it won't be editable by others.
+        </div>
       </div>
     </div>
   </body>
