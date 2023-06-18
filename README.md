@@ -42,3 +42,4 @@ First, we designed how we wanted our page to look on Figma. We then used HTML an
 
 ## Other Information
 * This project was submitted to the [Pride Hacks 2023 Hackathon](https://devpost.com/software/prism-f4ahzm).
+* Click here to try it [out](prism-possum.github.io)!
